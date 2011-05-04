@@ -42,6 +42,9 @@ res.notifier { |notifier|
 		puts "Pitch plugin is not enabled..."
 		puts "To enable it: nyxmms2 server config pitch.enabled 1"
 		puts "And: nyxmms2 server config effect.order.0 pitch"
+	else
+		puts "If its not working don't forget.."
+		puts "nyxmms2 server config effect.order.0 pitch"
 	end
 	
 }
